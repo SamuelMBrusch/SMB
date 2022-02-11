@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dongle';
+    font-size: 36px;
+}
+
+body{
+    background-image: url(img/main-background.jpg);
+}
+/* BARRA DE NAVEGAÇÃO */
+
+header{
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    padding-top: 12px;
+
+}
+
+.logo h2{
+    font-size: 42px;
+    padding-top: 14px
+}
+
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.menu-item{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#get-started{
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: -5px;
+    margin-left: 32px;
+    background-color: rgb(9, 224, 181);
+    border-radius: 8px;
+    color: black;
+}
+
+#get-started-presentation{
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(9, 224, 181);
+    border-radius: 8px;
+    color: black;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.presentation{
+    text-align: center;
+}
+
+.content-title{
+    font-size: 72px;
+    font-family: 'poppins';
+    margin-bottom: 24px;
+}
+
+.content-subtitle{
+    font-size: 24px;
+    font-family: 'poppins';
+    margin-bottom: 40px;
+}
+
+
+
